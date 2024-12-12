@@ -1,0 +1,52 @@
+.welcome {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100vw;
+  height: 100vh;
+  background: url("../Background1.png") lightgray 50% / cover no-repeat;
+}
+
+.welcome .containerIcn  {
+  display: flex;
+  width: 55px;
+  height: 55px;
+  padding: 13px 11px;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 13px;
+
+  position: absolute;
+  right: 40px;
+  top: 35px;
+}
+
+.welcome .logo {
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  gap: 10px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.welcome .logo img {
+  width: 311px;
+  height: 324px;
+}
+
+.containerP {
+  display: flex;
+  padding: 10px;
+  gap: 10px;
+  position: absolute;
+  left: 50%;
+  top: 90%;
+  transform: translate(-50%, -50%);
+}
+
+.containerSidebar {
+  padding-top: 10vh;
+}

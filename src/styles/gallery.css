@@ -1,0 +1,33 @@
+/* Content Section */
+
+
+.gallery-grid-container {
+  display: grid;
+  gap: 2rem;
+  padding-inline: 10%;
+  padding-block: 4%;
+  grid-template-columns: repeat(4, 10fr);
+  justify-content: center;
+  align-content: center;
+}
+
+.show-more-container {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.show-more-button {
+  padding: 17px 4%;
+  color: white;
+  border: none;
+  border-radius: 35px;
+  font-size: 23px;
+  background: var(--Primary, rgba(176, 78, 117, 0.95));
+  box-shadow: 0px 4px 8.5px 3px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(10.600000381469727px);
+}
+
+.show-more-button:hover {
+  background-color: #9d3f63;
+}

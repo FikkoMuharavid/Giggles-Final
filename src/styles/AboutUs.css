@@ -1,0 +1,71 @@
+.aboutus {
+  width: 100%;
+  background: url("/Background1.png") lightgray 50% / cover no-repeat;
+  box-sizing: border-box;
+  /* overflow-x: hidden; */
+}
+
+.aboutus .container {
+  margin: 3% 4%;
+  padding: 3%;
+  background-color: rgba(153, 153, 153, 0.13);
+  filter: drop-shadow(0px 4px 35px rgba(0, 0, 0, 0.25));
+  backdrop-filter: blur(5px);
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.aboutus .containerTeks {
+  margin: 3% 5%;
+  padding: 5% 7%;
+  background-color: rgba(153, 153, 153, 0.26);
+  filter: drop-shadow(0px 4px 35px rgba(0, 0, 0, 0.25));
+  backdrop-filter: blur(17.5px);
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+}
+
+.aboutus .garis {
+  height: 1px;
+  width: 100%;
+  margin-top: 1%;
+  background-color: white;
+}
+
+.aboutus .section-title {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.aboutus .section-title::before,
+.aboutus .section-title::after {
+  content: "";
+  flex: 1;
+  border-bottom: 4px solid #ffffff;
+  box-shadow: 0px 0px 20px 0px rgba(255, 255, 255, 0.25);
+  margin: 0 15px;
+  width: 30vw;
+}
+
+.aboutus .containerImg {
+  margin: 3% 5%;
+  padding: 4% 3%;
+  background-color: rgba(153, 153, 153, 0.26);
+  filter: drop-shadow(0px 4px 35px rgba(0, 0, 0, 0.25));
+  backdrop-filter: blur(17.5px);
+  border-radius: 25px;
+}
+
+.aboutus .containerImg p {
+  font-size: 24px;
+}

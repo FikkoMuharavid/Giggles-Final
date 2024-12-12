@@ -1,0 +1,47 @@
+.job-grid-container {
+    display: grid;
+    gap: 4vh 3vw;
+    padding: 4%;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .job-card {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    padding: 6%;
+    height: 10vh;
+    border-radius: 20px;
+    background: rgba(153, 153, 153, 0.26);
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(10px);
+    cursor: pointer;
+  }
+  .job-card img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  .job-title {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 8px;
+  }
+  /* Media Queries untuk menyesuaikan jumlah kolom */
+  @media (max-width: 1200px) {
+    .job-grid-container {
+      grid-template-columns: repeat(3, 1fr); /* 3 kolom */
+    }
+  }
+  @media (max-width: 768px) {
+    .job-grid-container {
+      grid-template-columns: repeat(2, 1fr); /* 2 kolom */
+    }
+  }
+  @media (max-width: 480px) {
+    .job-grid-container {
+      grid-template-columns: 1fr; /* 1 kolom */
+    }
+  }  

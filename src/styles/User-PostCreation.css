@@ -1,0 +1,113 @@
+.postcreationpage {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("/Background2.png") no-repeat center center fixed;
+  }
+  .postcreation {
+    width: 82%;
+    height: auto;
+    margin: 6% 5%;
+    padding: 2% 4%;
+    border-radius: 25px;
+    background: rgba(153, 153, 153, 0.26);
+    filter: drop-shadow(0px 4px 35px rgba(0, 0, 0, 0.8));
+    backdrop-filter: blur(17px);
+    border-radius: 22px;
+  }
+
+  .postcreation .tittle {
+    font-size: 20px;
+    color: #fff;
+    text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.25);
+    /* H1/Semi Bold 40 */
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+
+  .postcreation h3 {
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+
+  .postcreation .form input {
+    width: 95%;
+    margin-top: 10px;
+padding: 25px;
+border-radius: 10px;
+border: none;
+background: rgba(255, 255, 255, 0.1);
+box-shadow: 0px 0px 11.6px 0px rgba(0, 0, 0, 0.66) inset;
+color: #ddd;
+outline: none;
+font-size: 20px;
+  }
+
+.postcreation .containerCategory {
+margin-top: 20px;
+background-color: rgba(153, 153, 153, 0.26);
+border-radius: 10px;
+padding: 20px;
+display: flex;
+flex-wrap: wrap;
+gap: 10px;
+width: 65%;
+box-shadow: 0px 0px 11.6px 0px rgba(0, 0, 0, 0.66) inset;
+}
+.postcreation .tag {
+color: #fff;
+padding: 10px 30px;
+border-radius: 20px;
+border: 1px solid #ffffff9c;
+display: flex;
+align-items: center;
+justify-content: space-between;
+cursor: pointer;
+}
+.postcreation .tag.active {
+background: var(--Primary, rgba(176, 78, 117, 0.95));
+}
+.postcreation .tag span {
+margin-left: 10px;
+color: #ffffff;
+}
+.postcreation .tag.active span {
+color: #fff;
+}
+.postcreation .input-containerCategory {
+flex-basis: 100%;
+}
+.postcreation .input-containerCategory input {
+width: 80%;
+padding: 20px;
+border-radius: 20px;
+box-shadow: 0px 0px 11.6px 0px rgba(0, 0, 0, 0.66) inset;
+color: #ccc;
+font-size: 16px;
+}
+.postcreation .input-containerCategory input::placeholder {
+font-size: 16px;
+}
+.postcreation .btnSecondary {
+padding: 10px 25px;
+color: #b04e75;
+border-radius: 33px;
+border: 3px solid #b04e75;
+background: #fff;
+backdrop-filter: blur(10px);
+}
+
+.postcreation .buttonSave {
+margin-left: 85%;
+margin-top: 5%;
+padding: 17px 5%;
+border: none;
+border-radius: 35px;
+font-size: 20px;
+background: var(--Primary, rgba(176, 78, 117, 0.95));
+box-shadow: 0px 4px 8.5px 3px rgba(0, 0, 0, 0.3);
+backdrop-filter: blur(10.600000381469727px);
+}

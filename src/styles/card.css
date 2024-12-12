@@ -1,0 +1,39 @@
+/* Card container */
+.card-container {
+  width: 260px;
+  height: 250px;
+  background-color: white;
+  /* border: 1px solid #d3d2e3; */
+  border-radius: 20px;
+  padding-bottom: 16px; /* pb-4 equivalent */
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-container:hover {
+  transform: scale(1.05); /* Add a hover effect */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow on hover */
+}
+
+/* Image styling */
+.card-image {
+  width: 100%; /* Full width of the container */
+  height: 85%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  object-fit: cover;
+}
+
+/* Name text styling */
+.card-name {
+  margin-top: 2px; /* mt-2 equivalent */
+  text-align: center;
+  font-size: 1rem; /* Equivalent to text-lg */
+  font-weight: bold;
+  color: #333; /* Darker text color */
+}

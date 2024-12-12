@@ -1,0 +1,202 @@
+
+
+
+header {
+  height: 100vh;
+  width: 100%;
+  background: url("/Background1.png");
+}
+
+section {
+  width: 100%;
+  height: auto;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("/Background2.png");
+}
+
+.containerHeader {
+  display: flex;
+  height: 80%;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  gap: 28px;
+   flex-direction: column; 
+}
+
+.homeGuest button {
+  padding: 17px 4%;
+  color: white;
+  border: none;
+  border-radius: 35px;
+  font-size: 23px;
+  background: var(--Primary, rgba(176, 78, 117, 0.95));
+  box-shadow: 0px 4px 8.5px 3px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(10.600000381469727px);
+}
+
+.title {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  gap: 20px;
+  background: rgba(153, 153, 153, 0.26);
+  box-shadow: 0px 4px 35px 13px rgba(0, 0, 0, 0.55);
+  backdrop-filter: blur(17.5px);
+}
+
+/* CARAUSEL */
+.containerCarousel {
+  display: flex;
+  flex-direction: column; /* Mengatur container untuk menumpuk kartu dan tombol */
+  align-items: center; /* Memusatkan kartu dan tombol */
+  gap: 20px;
+  justify-content: center;
+  margin: 4% 6% 0% 6%;
+  padding: 4% 6% 4% 6%;
+  border-radius: 40px;
+  background: rgba(153, 153, 153, 0.26);
+  box-shadow: 0px 4px 35px 13px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(17.5px);
+}
+.carouselCards {
+  display: flex;
+  gap: 5%;
+  justify-content: center;
+  width: 100%;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex: 1 0 0;
+}
+.imgCard {
+  width: 100%;
+  height: 40vh;
+  align-self: stretch;
+  border-radius: 40px 40px 0px 0px;
+
+  box-shadow: 0px 4px 35px 13px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(17.5px);
+  object-fit: cover;
+}
+.txtCard {
+  display: flex;
+  height: 90px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  align-self: stretch;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  border-radius: 0px 0px 40px 40px;
+  background: rgba(153, 153, 153, 0.26);
+}
+.sliderLeft {
+  position: absolute;
+  top: 35%;
+  left: -20px;
+  padding: 20px;
+  border-radius: 22px;
+  background: var(--Primary, rgba(176, 78, 117, 0.95));
+  box-shadow: 0px 4px 8.5px 3px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(10.600000381469727px);
+}
+.sliderRight {
+  position: absolute;
+  top: 35%;
+  right: -20px;
+  padding: 20px;
+  border-radius: 22px;
+  background: var(--Primary, rgba(176, 78, 117, 0.95));
+  box-shadow: 0px 4px 8.5px 3px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(10.600000381469727px);
+}
+
+/* JOB KATEGORI */
+.job-grid-container {
+  display: grid;
+  gap: 4vh 3vw;
+  padding: 4%;
+  grid-template-columns: repeat(4, 1fr); /* Default 4 kolom */
+}
+.job-card {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 1%;
+  height: 10vh;
+  border-radius: 20px;
+  background: rgba(153, 153, 153, 0.26);
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(10px);
+}
+.job-card img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.job-title {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-bottom: 8px;
+}
+/* Media Queries untuk menyesuaikan jumlah kolom */
+@media (max-width: 1200px) {
+  .job-grid-container {
+    grid-template-columns: repeat(3, 1fr); /* 3 kolom */
+  }
+}
+@media (max-width: 768px) {
+  .job-grid-container {
+    grid-template-columns: repeat(2, 1fr); /* 2 kolom */
+  }
+}
+@media (max-width: 480px) {
+  .job-grid-container {
+    grid-template-columns: 1fr; /* 1 kolom */
+  }
+}
+
+/* Tutor CV */
+.feature-container {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  padding: 3%;
+  margin: 4%;
+  background: rgba(153, 153, 153, 0.26);
+  border-radius: 20px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(10px);
+  color: white;
+  font-family: Arial, sans-serif;
+}
+.video-container {
+  flex: 1;
+  height: 45vh;
+  max-width: 40vw;
+  border-radius: 15px;
+  overflow: hidden;
+}
+.content-container {
+  flex: 1;
+}
+.content-container h2 {
+  font-size: 25px;
+  color: #fff;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  text-align: left;
+}

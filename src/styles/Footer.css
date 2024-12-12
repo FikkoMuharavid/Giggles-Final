@@ -1,0 +1,31 @@
+footer {
+    padding: 3%;
+    margin-top: 13vh;
+    background: rgba(0, 0, 0, 0.71);
+    box-shadow: 0px 0px 45px 40px rgba(0, 0, 0, 0.685);
+    backdrop-filter: blur(25px);
+  }
+
+  footer .containerIcn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+  }
+
+  footer .icnFooter {
+    width: 40px;
+    height: 40px;
+    padding: 15px 15px;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.12);
+    box-shadow: 0px 0px 6.4px 0px rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(8.199999809265137px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  footer .icnFooter:hover i {
+    color: white;
+  }

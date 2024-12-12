@@ -1,0 +1,702 @@
+html,
+body {
+  height: 100%; /* Pastikan html dan body memiliki tinggi 100% */
+  margin: 0; /* Hapus margin default */
+}
+
+.containerEditProfile {
+  margin: 5% 4%;
+  height: 850vh;
+  max-height: 1400px;
+  background: rgba(153, 153, 153, 0.26);
+  filter: drop-shadow(0px 4px 35px rgba(0, 0, 0, 0.8));
+  backdrop-filter: blur(17px);
+  border-radius: 22px;
+}
+.containerEditProfile2 {
+  position: relative;
+  z-index: 5; /* Nilai lebih rendah dari .header */
+  top: 30px;
+  margin: 3% auto; /* Mengatur margin atas dan bawah, lalu memusatkan elemen */
+  width: 90vw; /* Mengatur lebar menjadi 90% dari viewport */
+  height: 900vh;
+  max-height: 1400px;
+  background: rgba(153, 153, 153, 0.26);
+  filter: drop-shadow(0px 4px 35px rgba(0, 0, 0, 0.8));
+  backdrop-filter: blur(17px);
+  border-radius: 22px;
+  margin-left: 4.5%;
+}
+
+.containerEditProfile22 {
+  position: relative;
+  z-index: 5; /* Nilai lebih rendah dari .header */
+  top: 30px;
+  margin: 3% auto; /* Mengatur margin atas dan bawah, lalu memusatkan elemen */
+  width: 90vw; /* Mengatur lebar menjadi 90% dari viewport */
+  height: 500vh;
+  max-height: 1800px;
+  background: rgba(153, 153, 153, 0.26);
+  filter: drop-shadow(0px 4px 35px rgba(0, 0, 0, 0.8));
+  backdrop-filter: blur(17px);
+  border-radius: 22px;
+  margin-left: 4.5%;
+}
+
+.containerEditwork .containerEdit {
+  width: 115%;
+  max-width: 2000px;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  position: relative;
+  left: -15%; /* Menggeser ke kiri */
+}
+
+
+
+.containerEditSocialProfile {
+  margin: 5% 4%;
+  height: 120vh;
+  max-height: 900px;
+  background: rgba(153, 153, 153, 0.26);
+  filter: drop-shadow(0px 4px 35px rgba(0, 0, 0, 0.8));
+  backdrop-filter: blur(17px);
+  border-radius: 22px;
+}
+
+.containerEditResume {
+  margin: 5% 4%;
+  height: 100vh;
+  max-height: 850px;
+  background: rgba(153, 153, 153, 0.26);
+  filter: drop-shadow(0px 4px 35px rgba(0, 0, 0, 0.8));
+  backdrop-filter: blur(17px);
+  border-radius: 22px;
+}
+
+.containerEditWorkSpace {
+  margin: 5% 4%;
+  height: 150vh;
+  max-height: 1080px;
+  background: rgba(153, 153, 153, 0.26);
+  filter: drop-shadow(0px 4px 35px rgba(0, 0, 0, 0.8));
+  backdrop-filter: blur(17px);
+  border-radius: 22px;
+}
+
+/* .header {
+  position: relative;
+  margin-top: 2%;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 100px;
+  width: 85vw;
+  border-radius: 22px;
+  background: rgba(153, 153, 153, 0.26);
+  filter: drop-shadow(0px 4px 35px rgba(0, 0, 0, 0.8));
+  backdrop-filter: blur(17px);
+  z-index: 10;
+  overflow: ; 
+  white-space: nowrap;
+} */
+
+.containerHeaderAvril {
+  display: flex;
+  flex-wrap: nowrap; /* Mencegah elemen membungkus ke baris baru */
+  width: 100%;
+  padding: 1% 5%;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 20px; /* Opsional: Menambah jarak antar elemen */
+}
+
+.header-item {
+  font-size: 25px;
+  font-style: normal;
+  white-space: nowrap;
+  font-weight: 400;
+  line-height: normal;
+  white-space: nowrap; /* Mencegah teks membungkus ke baris berikutnya */
+}
+
+.header-item.active {
+  text-shadow: 0px 0px 5px #b04e75;
+  font-style: normal;
+  white-space: nowrap;
+  font-weight: 600;
+  line-height: normal;
+  white-space: nowrap; /* Menjamin teks tidak membungkus */
+}
+
+
+.containerEdit {
+  margin-top: 20px; /* Sesuaikan dengan elemen atas */
+  padding: 20px;
+  background: rgba(153, 153, 153, 0.26);
+  border-radius: 22px;
+}
+
+.form-grid-edit {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px; /* Jarak antar elemen */
+}
+
+.containerProfile {
+  padding: 20px;
+  background-color: rgba(153, 153, 153, 0.26);
+  border-radius: 22px;
+  width: 80%; /* Sesuaikan lebar sesuai desain */
+  margin: auto;
+}
+
+.containerProfile1 {
+  padding: 20px;
+  background-color: rgba(153, 153, 153, 0.26);
+  border-radius: 22px;
+  width: 80%; /* Sesuaikan lebar sesuai desain */
+  margin: auto;
+}
+.profile-info {
+  margin-bottom: 20px;
+}
+
+.containerEditpoto {
+  position: absolute;
+  width: 82%;
+  height: auto;
+  margin: 6% 5%;
+  padding: 2% 4%;
+  border-radius: 25px;
+  fill: rgba(153, 153, 153, 0.26);
+  filter: drop-shadow(0px 4px 35px rgba(0, 0, 0, 0.8));
+  backdrop-filter: blur(17px);
+}
+
+.containerEditwork {
+  position: absolute;
+  width: 82%;
+  height: 35%;
+  margin: 6% 5%;
+  padding: 2% 4%;
+  border-radius: 25px;
+  fill: rgba(153, 153, 153, 0.26);
+  filter: drop-shadow(0px 4px 35px rgba(0, 0, 0, 0.8));
+  backdrop-filter: blur(17px);
+}
+
+.containerProfilee {
+  position: absolute;
+  width: 82%;
+  height: 39%;
+  margin: 6% 5%;
+  padding: 2% 4%;
+  border-radius: 25px;
+  fill: rgba(153, 153, 153, 0.26);
+  filter: drop-shadow(0px 4px 35px rgba(0, 0, 0, 0.8));
+  backdrop-filter: blur(17px);
+}
+
+.tittle {
+  font-size: 20px;
+  color: #fff;
+  text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.25);
+  /* H1/Semi Bold 40 */
+  font-family: Inter;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.change {
+  position: absolute;
+  right: 0; /* Memposisikan tombol di sebelah kanan */
+  top: 15%; /* Mengubah top untuk posisi lebih ke atas */
+  transform: translateY(
+    -50%
+  ); /* Menyesuaikan posisi vertikal agar pas di tengah */
+  margin-top: 0; /* Hapus margin-top agar lebih terkendali */
+  margin-right: 20px;
+}
+
+button {
+  padding: 17px 3%;
+  border: none;
+  border-radius: 35px;
+  font-size: 23px;
+  background: var(--Primary, rgba(176, 78, 117, 0.95));
+  box-shadow: 0px 4px 8.5px 3px rgba(0, 0, 0, 0.05);
+  backdrop-filter: blur(10.600000381469727px);
+  justify-content: flex-end;
+}
+
+h3 {
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: 1fr; /* Membuat semua elemen berada dalam satu kolom */
+  gap: 20px; /* Menambahkan jarak antar elemen */
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-grid-avril input {
+  margin-top: 10px;
+  width: 96%;
+  padding: 25px;
+  border-radius: 10px;
+  border: none;
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0px 0px 11.6px 0px rgba(0, 0, 0, 0.66) inset;
+  color: #ddd;
+  outline: none;
+  font-size: 20px;
+}
+
+.form-grid-avril input[placeholder="Enter your location"] {
+  width: 100%; /* Lebar penuh kontainer */
+  height: 20px; /* Atur tinggi sesuai keinginan */
+}
+
+.form-grid-avril input[placeholder="Enter your bio"] {
+  width: 100%; /* Lebar penuh kontainer */
+  height: 60px; /* Atur tinggi sesuai keinginan */
+}
+/* Post Job */
+.containerCategory {
+  margin-top: 20px;
+  background-color: rgba(153, 153, 153, 0.26);
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  width: 60%;
+  box-shadow: 0px 0px 11.6px 0px rgba(0, 0, 0, 0.66) inset;
+}
+.tag {
+  color: #fff;
+  padding: 10px 30px;
+  border-radius: 20px;
+  border: 1px solid #ffffff9c;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.tag.active {
+  background: var(--Primary, rgba(176, 78, 117, 0.95));
+}
+.tag span {
+  margin-left: 10px;
+  color: #ffffff;
+}
+.tag.active span {
+  color: #fff;
+}
+.input-containerCategory {
+  flex-basis: 100%;
+}
+.input-containerCategory input {
+  width: 80%;
+  padding: 20px;
+  border-radius: 20px;
+  border: none;
+  background: rgba(255, 255, 255, 0.1);
+  color: #ccc;
+  font-size: 16px;
+}
+.input-containerCategory input::placeholder {
+  font-size: 16px;
+}
+.btnSecondary {
+  padding: 10px 25px;
+  color: #b04e75;
+  border-radius: 33px;
+  border: 3px solid #b04e75;
+  background: #fff;
+  backdrop-filter: blur(10px);
+}
+
+.buttonSave {
+  position: absolute;
+  right: 0;
+  margin-top: 4%;
+  margin-right: 5px;
+}
+
+.buttonSv {
+  position: absolute;
+  right: 0;
+  margin-top: 4%;
+  margin-right: 5px;
+}
+.buttonSave1 {
+  position: absolute;
+  right: 0;
+  margin-top: 7%;
+  margin-right: 5px;
+}
+
+.profile-container {
+  display: flex;
+  align-items: center; /* Menyelaraskan secara vertikal */
+  gap: 25px; /* Jarak antara foto dan teks */
+}
+
+.profile-name {
+  font-weight: bold;
+  font-size: 25px;
+  color: #fff;
+  position: relative;
+  white-space: nowrap;
+}
+
+.underline {
+  background: #fff; /* Warna garis */
+  height: 2px; /* Ketebalan garis */
+  width: 250%; /* Lebar garis sesuai teks */
+  margin-top: 4px; /* Jarak dari teks ke garis */
+}
+
+.containerEdit.new-section {
+  position: absolute;
+  width: 82%;
+  height: auto;
+  margin: 6% 5%;
+  padding: 2% 4%;
+  border-radius: 25px;
+  fill: rgba(153, 153, 153, 0.26);
+  filter: drop-shadow(0px 4px 35px rgba(0, 0, 0, 0.8));
+  backdrop-filter: blur(17px);
+}
+.divider {
+  background: #fff;
+  box-shadow: 0px 0px 4px 0px rgba(255, 255, 255, 0.25);
+  height: 2px; /* Ketebalan garis */
+  width: 100%; /* Panjang garis sesuai lebar kontainer */
+  margin: 10px 0; /* Jarak atas dan bawah */
+}
+
+.remove-btn {
+  background: none;
+  color: #b04e75;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  text-align: right;
+  display: block;
+  margin-left: auto;
+  margin-top: 10px;
+}
+.remove-btn1 {
+  color: #b04e75; /* Warna teks (bisa disesuaikan) */
+  font-size: 14px;
+  cursor: pointer; /* Tanda bahwa teks bisa diklik */
+  text-align: right;
+  margin-left: auto;
+  margin-top: 10px;
+  display: block;
+  background: none;
+  border: none;
+  padding: 0;
+}
+
+.form-grid-edit {
+  padding-top: 2%;
+  display: grid;
+  grid-template-columns: 1fr; /* Default jadi satu kolom */
+  gap: 4%;
+}
+
+.form-group-edit {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Tampilan khusus untuk Additional Work History */
+.work-history .two-column {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Jarak antar elemen */
+}
+
+.work-history .two-column input[type="text"] {
+  width: 45%; /* Agar input bersebelahan */
+}
+
+.at-text {
+  margin: 0 5px; /* Jarak untuk teks "at" */
+}
+
+/* Tampilan khusus untuk Additional Education */
+.education .three-column {
+  display: flex;
+  gap: 10px;
+}
+
+.education .three-column input[type="text"] {
+  width: 33%; /* Membagi tiga kolom */
+}
+
+.options-group {
+  display: flex;
+  flex-direction: column; /* Mengatur layout agar bersusun secara vertikal */
+  align-items: flex-start; /* Mengatur posisi ke kiri */
+  gap: 10px; /* Menambahkan jarak antar opsi */
+}
+
+.custom-radio {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 20px;
+  border: 2px solid #c2185b;
+  border-radius: 20px;
+  background-color: #fff;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.2s ease-in-out;
+  width: 150px; /* Mengatur lebar tetap */
+  max-width: 150px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.custom-radio:hover {
+  transform: scale(1.05);
+}
+
+.label-text {
+  font-size: 16px;
+  color: #c2185b;
+  font-weight: bold;
+}
+
+.radio-circle {
+  width: 20px;
+  height: 20px;
+  border: 2px solid #c2185b;
+  border-radius: 50%;
+  position: relative;
+}
+
+.radio-circle::after {
+  content: "";
+  width: 12px;
+  height: 12px;
+  background-color: #c2185b;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+input[type="radio"]:checked + .label-text + .radio-circle::after {
+  opacity: 1;
+}
+
+.containerEditProfile1 {
+  margin-bottom: 20px;
+}
+
+.additional-container {
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.divider {
+  width: 100%;
+  height: 1px;
+  background-color: #ccc;
+  margin: 10px 0;
+}
+
+.two-column {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.three-column {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+/* input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+} */
+
+.at-text {
+  margin: 0 5px;
+  font-weight: bold;
+}
+
+.remove-btn {
+  padding: 8px 12px;
+  background-color: #ff4d4d;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.remove-btn:hover {
+  background-color: #e60000;
+}
+
+.form-grid-edit {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.two-column,
+.three-column {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.two-column input,
+.three-column input {
+  background-color: rgba(255, 255, 255, 0.15);
+  color: #fff;
+  padding: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 8px;
+  width: 100%;
+  max-width: 150px;
+}
+
+.at-text {
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.remove-btn {
+  background-color: #e75480;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-size: 12px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.containerEditProfileup22{
+  position: relative;
+  z-index: 5; /* Nilai lebih rendah dari .header */
+  top: 20px;
+  margin: -4% auto; /* Mengatur margin atas dan bawah, lalu memusatkan elemen */
+  width: 90vw; /* Mengatur lebar menjadi 90% dari viewport */
+  height: 0vh;
+  max-height: 800px;
+  background: rgba(153, 153, 153, 0.26);
+  filter: drop-shadow(0px 4px 35px rgba(0, 0, 0, 0.8));
+  backdrop-filter: blur(17px);
+  border-radius: 22px;
+  margin-left: 4.5%;
+}
+
+.containerEdit1 {
+  position: absolute;
+  width: 82%;
+  height: 65%;
+  margin: 6% 5%;
+  padding: 2% 4%;
+  border-radius: 25px;
+  fill: rgba(153, 153, 153, 0.26);
+  filter: drop-shadow(0px 4px 35px rgba(0, 0, 0, 0.8));
+  backdrop-filter: blur(17px);
+}
+.containerEditProfileup2{
+  position: relative;
+  z-index: 5; /* Nilai lebih rendah dari .header */
+  top: 30px;
+  margin: 3% auto; /* Mengatur margin atas dan bawah, lalu memusatkan elemen */
+  width: 90vw; /* Mengatur lebar menjadi 90% dari viewport */
+  height: 230vh;
+  max-height: 700px;
+  background: rgba(153, 153, 153, 0.26);
+  filter: drop-shadow(0px 4px 35px rgba(0, 0, 0, 0.8));
+  backdrop-filter: blur(17px);
+  border-radius: 22px;
+  margin-left: 4.5%;
+}
+
+.containerEditProfileup22{
+  position: relative;
+  z-index: 5; /* Nilai lebih rendah dari .header */
+  top: 30px;
+  margin: 3% auto; /* Mengatur margin atas dan bawah, lalu memusatkan elemen */
+  width: 90vw; /* Mengatur lebar menjadi 90% dari viewport */
+  height: 230vh;
+  max-height: 850px;
+  background: rgba(153, 153, 153, 0.26);
+  filter: drop-shadow(0px 4px 35px rgba(0, 0, 0, 0.8));
+  backdrop-filter: blur(17px);
+  border-radius: 22px;
+  margin-left: 4.5%;
+}
+
+.containerEdit3 {
+  position: absolute;
+  width: 82%;
+  height: 80%;
+  margin: 6% 5%;
+  padding: 2% 4%;
+  border-radius: 25px;
+  fill: rgba(153, 153, 153, 0.26);
+  filter: drop-shadow(0px 4px 35px rgba(0, 0, 0, 0.8));
+  backdrop-filter: blur(17px);
+}
+.containerEditProfileup3{
+  position: relative;
+  z-index: 5; /* Nilai lebih rendah dari .header */
+  top: 30px;
+  margin: 3% auto; /* Mengatur margin atas dan bawah, lalu memusatkan elemen */
+  width: 90vw; /* Mengatur lebar menjadi 90% dari viewport */
+  height: 200vh;
+  max-height: 700px;
+  background: rgba(153, 153, 153, 0.26);
+  filter: drop-shadow(0px 4px 35px rgba(0, 0, 0, 0.8));
+  backdrop-filter: blur(17px);
+  border-radius: 22px;
+  margin-left: 4.5%;
+}
+.containerEdit2 {
+  position: absolute;
+  width: 82%;
+  height: 65%;
+  margin: 6% 5%;
+  padding: 2% 4%;
+  border-radius: 25px;
+  fill: rgba(153, 153, 153, 0.26);
+  filter: drop-shadow(0px 4px 35px rgba(0, 0, 0, 0.8));
+  backdrop-filter: blur(17px);
+}

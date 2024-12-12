@@ -1,0 +1,98 @@
+[
+    {
+        "image": "/images/image-1.png",
+        "name": "Glassmorphism",
+        "id": 1,
+        "description": "A design trend that uses frosted glass elements with background blur for an elegant and modern look."
+    },
+    {
+        "image": "/images/image-2.png",
+        "name": "Glassmorphism",
+        "id": 2,
+        "description": "A comprehensive kit for creating user-friendly interfaces with a focus on smooth user experience."
+    },
+    {
+        "image": "/images/image-3.png",
+        "name": "Glassmorphism",
+        "id": 3,
+        "description": "A design trend that uses frosted glass elements with background blur for an elegant and modern look."
+    },
+    {
+        "image": "/images/image-4.png",
+        "name": "Glassmorphism",
+        "id": 4,
+        "description": "A powerful dashboard template that provides analytics and real-time data visualization."
+    },
+    {
+        "image": "/images/image-5.png",
+        "name": "Glassmorphism",
+        "id": 5,
+        "description": "A fitness application template that helps users track their workouts, goals, and progress."
+    },
+    {
+        "image": "/images/image-6.png",
+        "name": "Glassmorphism",
+        "id": 6,
+        "description": "A modern take on brutalism with bold, raw design elements and a minimalist aesthetic."
+    },
+    {
+        "image": "/images/image-7.png",
+        "name": "Glassmorphism",
+        "id": 7,
+        "description": "An artistic approach that blends minimalism and maximalism for an engaging and abstract design."
+    },
+    {
+        "image": "/images/image-8.png",
+        "name": "Glassmorphism",
+        "id": 8,
+        "description": "Google's design system focusing on clean, flat interfaces with well-defined elements and responsive layouts."
+    },
+    {
+        "image": "/images/image-9.png",
+        "name": "Glassmorphism",
+        "id": 9,
+        "description": "A design toolkit based on Material Design principles that provides a robust set of UI elements and components."
+    },
+    {
+        "image": "/images/image-10.png",
+        "name": "Glassmorphism",
+        "id": 9,
+        "description": "A design toolkit based on Material Design principles that provides a robust set of UI elements and components."
+    },
+    {
+        "image": "/images/image-11.png",
+        "name": "Glassmorphism",
+        "id": 9,
+        "description": "A design toolkit based on Material Design principles that provides a robust set of UI elements and components."
+    },
+    {
+        "image": "/images/image-12.png",
+        "name": "Glassmorphism",
+        "id": 9,
+        "description": "A design toolkit based on Material Design principles that provides a robust set of UI elements and components."
+    },
+    {
+        "image": "/images/image-13.png",
+        "name": "Glassmorphism",
+        "id": 9,
+        "description": "A design toolkit based on Material Design principles that provides a robust set of UI elements and components."
+    },
+    {
+        "image": "/images/image-14.png",
+        "name": "Glassmorphism",
+        "id": 9,
+        "description": "A design toolkit based on Material Design principles that provides a robust set of UI elements and components."
+    },
+    {
+        "image": "/images/image-15.png",
+        "name": "Glassmorphism",
+        "id": 9,
+        "description": "A design toolkit based on Material Design principles that provides a robust set of UI elements and components."
+    },
+    {
+        "image": "/images/image-9.png",
+        "name": "Glassmorphism",
+        "id": 9,
+        "description": "A design toolkit based on Material Design principles that provides a robust set of UI elements and components."
+    }
+]

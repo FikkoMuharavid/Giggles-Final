@@ -1,0 +1,101 @@
+/* CAROUSEL */
+.containerCarousel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+    margin: 4% 6% 0% 6%;
+    padding: 4% 6% 4% 6%;
+    border-radius: 40px;
+    background: rgba(153, 153, 153, 0.26);
+    box-shadow: 0px 4px 35px 13px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(17.5px);
+    position: relative;
+  }
+  
+  .carouselCards {
+    display: flex;
+    gap: 5%;
+    justify-content: center;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .carouselSlider {
+    display: flex;
+    gap: 5%;
+    transition: transform 0.5s ease;
+  }
+  
+  .card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex: 1 0 0;
+    min-width: calc(34% - 5%);
+  }
+  
+  .imgCard {
+    width: 100%;
+    height: 40vh;
+    align-self: stretch;
+    border-radius: 40px 40px 0px 0px;
+    /* box-shadow: 0px 4px 35px 13px rgba(0, 0, 0, 0.25); */
+    backdrop-filter: blur(17.5px);
+    object-fit: cover;
+  }
+  
+  .txtCard {
+    display: flex;
+    height: 90px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    border-radius: 0px 0px 40px 40px;
+    background: rgba(153, 153, 153, 0.26);
+  }
+  
+  /* Slider Button */
+  .sliderLeft,
+  .sliderRight {
+    position: absolute;
+    top: 35%;
+    padding: 20px;
+    border-radius: 22px;
+    background: rgba(176, 78, 117, 0.95); /* Primary color */
+    box-shadow: 0px 4px 8.5px 3px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(10.6px);
+    cursor: pointer;
+    z-index: 1;
+  }
+  
+  .sliderLeft {
+    left: -20px;
+  }
+  
+  .sliderRight {
+    right: -20px;
+  }
+  
+  /* See More Button */
+  .seeMoreBtn {
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: rgba(176, 78, 117, 0.95);
+    border: none;
+    color: white;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .seeMoreBtn:hover {
+    background-color: rgba(176, 78, 117, 1);
+  }  

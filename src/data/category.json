@@ -1,0 +1,433 @@
+[
+  {
+    "image": "/images/category/programer.png",
+    "name": "Programmer",
+    "id": 1,
+    "total": 1000,
+    "jobs": [
+      {
+        "id": 1,
+        "title": "Open Position for UI/UX Designer",
+        "about": "Established since 2020, PT. Sevanam Teknologi Solusindo is engaged in Software Development, especially Microfinance Institutions that focus on Customer Centric towards Customer Satisfaction.",
+        "requirement": "Technical understanding of how to perform software testing.Ability to perform concrete problem solving in software.Ability to identify bugs, errors/defects, and provide input on specific improvements needed.Ability to document software testing results based on findings during the testing process.",
+        "icon": "/images/image-1.png",
+        "company": "Sevanam",
+        "poster": "/images/jobs/image-2.png"
+      },
+      {
+        "id": 2,
+        "title": "UI / UX Design",
+        "about": "helps you to design apps that span the Microsoft 365 ecosystem. It includes core components, scenario-based templates, and best practices to help you create apps that keep your users in the flow of their work.",
+        "requirement": "Technical understanding of how to perform software testing. Ability to perform concrete problem solving in software.Ability to identify bugs, errors/defects, and provide input on specific improvements needed.Ability to document software testing results based on findings during the testing process.",
+        "icon": "/images/image-1.png",
+        "company": "Microsoft",
+        "poster": "/images/jobs/image-3.png"
+      },
+      {
+        "id": 3,
+        "title": "UI/UX Designer needed in TRANSISI",
+        "about": "Transisi is an IT consulting company based in Yogyakarta that focuses on developing web and mobile applications for the enterprise segment.",
+        "requirement": "Technical understanding of how to perform software testing. Ability to perform concrete problem solving in software.Ability to identify bugs, errors/defects, and provide input on specific improvements needed.Ability to document software testing results based on findings during the testing process.",
+        "icon": "/images/image-1.png",
+        "company": "Nugasin. com",
+        "poster": "/images/jobs/image-1.png"
+      },
+      {
+        "id": 4,
+        "title": "UI/UX Designer",
+        "about": "Interested in Job Vacancy Info PT Teknologi Pustaka Indonesia? Prepare your application and CV along with other supporting application files",
+        "requirement": "Technical understanding of how to perform software testing. Ability to perform concrete problem solving in software.Ability to identify bugs, errors/defects, and provide input on specific improvements needed.Ability to document software testing results based on findings during the testing process.",
+        "icon": "/images/image-1.png",
+        "company": "PT Teknologi Pustaka Indonesia",
+        "poster": "/images/jobs/image.png"
+      },
+      {
+        "id": 5,
+        "title": "UI/UX Designer",
+        "about": "Interested in Job Vacancy Info PT Hadid Parama Indonesia (Boscod)? Prepare your application files and CV along with other supporting application files. Here are the qualifications",
+        "requirement": "Technical understanding of how to perform software testing. Ability to perform concrete problem solving in software.Ability to identify bugs, errors/defects, and provide input on specific improvements needed.Ability to document software testing results based on findings during the testing process.",
+        "icon": "/images/image-1.png",
+        "company": "Boscod",
+        "poster": "/images/jobs/image-1.png"
+      }
+    ]
+  },
+  {
+    "image": "/images/category/ilustrator.png",
+    "name": "Illustrator",
+    "id": 2,
+    "total": 289,
+
+    "jobs": [
+      {
+        "id": 1,
+        "title": "Open Position for UI/UX Designer",
+        "about": "Established since 2020, PT. Sevanam Teknologi Solusindo is engaged in Software Development, especially Microfinance Institutions that focus on Customer Centric towards Customer Satisfaction.",
+        "requirement": "Menguasai bahasa pemrograman seperti Python, Java, atau Node.js. Pengalaman dengan framework seperti Django, Spring, atau Express.",
+        "icon": "/images/image-1.png",
+        "company": "Sevanam",
+        "poster": "/images/jobs/image.png"
+      },
+      {
+        "id": 2,
+        "title": "UI / UX Design",
+        "about": "helps you to design apps that span the Microsoft 365 ecosystem. It includes core components, scenario-based templates, and best practices to help you create apps that keep your users in the flow of their work.",
+        "requirement": "Technical understanding of how to perform software testing. Ability to perform concrete problem solving in software.Ability to identify bugs, errors/defects, and provide input on specific improvements needed.Ability to document software testing results based on findings during the testing process.",
+        "icon": "/images/image-1.png",
+        "company": "Microsoft",
+        "poster": "/images/jobs/image-1.png"
+      },
+      {
+        "id": 3,
+        "title": "UI/UX Designer needed in TRANSISI",
+        "about": "Transisi is an IT consulting company based in Yogyakarta that focuses on developing web and mobile applications for the enterprise segment.",
+        "requirement": "Technical understanding of how to perform software testing. Ability to perform concrete problem solving in software.Ability to identify bugs, errors/defects, and provide input on specific improvements needed.Ability to document software testing results based on findings during the testing process.",
+        "icon": "/images/image-1.png",
+        "company": "Nugasin. com",
+        "poster": "/images/jobs/image-2.png"
+      },
+      {
+        "id": 4,
+        "title": "UI/UX Designer",
+        "about": "Interested in Job Vacancy Info PT Teknologi Pustaka Indonesia? Prepare your application and CV along with other supporting application files",
+        "requirement": "Technical understanding of how to perform software testing. Ability to perform concrete problem solving in software.Ability to identify bugs, errors/defects, and provide input on specific improvements needed.Ability to document software testing results based on findings during the testing process.",
+        "icon": "/images/image-1.png",
+        "company": "PT Teknologi Pustaka Indonesia",
+        "poster": "/images/image-3.png"
+      },
+      {
+        "id": 5,
+        "title": "UI/UX Designer",
+        "about": "Interested in Job Vacancy Info PT Hadid Parama Indonesia (Boscod)? Prepare your application files and CV along with other supporting application files. Here are the qualifications",
+        "requirement": "Technical understanding of how to perform software testing. Ability to perform concrete problem solving in software.Ability to identify bugs, errors/defects, and provide input on specific improvements needed.Ability to document software testing results based on findings during the testing process.",
+        "icon": "/images/image-1.png",
+        "company": "Boscod",
+        "poster": "/images/jobs/image-1.png"
+      }
+    ]
+  },
+  {
+    "total": 5555,
+
+    "image": "/images/category/webdesign.png",
+    "name": "Web Design",
+    "id": 3,
+    "jobs": [
+      {
+        "id": 1,
+        "title": "Open Position for UI/UX Designer",
+        "about": "Established since 2020, PT. Sevanam Teknologi Solusindo is engaged in Software Development, especially Microfinance Institutions that focus on Customer Centric towards Customer Satisfaction.",
+        "requirement": "Menguasai bahasa pemrograman seperti Python, Java, atau Node.js. Pengalaman dengan framework seperti Django, Spring, atau Express.",
+        "icon": "/images/image-1.png",
+        "company": "Sevanam",
+        "poster": "/images/jobs/image.png"
+      },
+      {
+        "id": 2,
+        "title": "UI / UX Design",
+        "about": "helps you to design apps that span the Microsoft 365 ecosystem. It includes core components, scenario-based templates, and best practices to help you create apps that keep your users in the flow of their work.",
+        "requirement": "Technical understanding of how to perform software testing. Ability to perform concrete problem solving in software.Ability to identify bugs, errors/defects, and provide input on specific improvements needed.Ability to document software testing results based on findings during the testing process.",
+        "icon": "/images/image-1.png",
+        "company": "Microsoft",
+        "poster": "/images/jobs/image-1.png"
+      },
+      {
+        "id": 3,
+        "title": "UI/UX Designer needed in TRANSISI",
+        "about": "Transisi is an IT consulting company based in Yogyakarta that focuses on developing web and mobile applications for the enterprise segment.",
+        "requirement": "Technical understanding of how to perform software testing. Ability to perform concrete problem solving in software.Ability to identify bugs, errors/defects, and provide input on specific improvements needed.Ability to document software testing results based on findings during the testing process.",
+        "icon": "/images/image-1.png",
+        "company": "Nugasin. com",
+        "poster": "/images/jobs/image-2.png"
+      },
+      {
+        "id": 4,
+        "title": "UI/UX Designer",
+        "about": "Interested in Job Vacancy Info PT Teknologi Pustaka Indonesia? Prepare your application and CV along with other supporting application files",
+        "requirement": "Technical understanding of how to perform software testing. Ability to perform concrete problem solving in software.Ability to identify bugs, errors/defects, and provide input on specific improvements needed.Ability to document software testing results based on findings during the testing process.",
+        "icon": "/images/image-1.png",
+        "company": "PT Teknologi Pustaka Indonesia",
+        "poster": "/images/image-3.png"
+      },
+      {
+        "id": 5,
+        "title": "UI/UX Designer",
+        "about": "Interested in Job Vacancy Info PT Hadid Parama Indonesia (Boscod)? Prepare your application files and CV along with other supporting application files. Here are the qualifications",
+        "requirement": "Technical understanding of how to perform software testing. Ability to perform concrete problem solving in software.Ability to identify bugs, errors/defects, and provide input on specific improvements needed.Ability to document software testing results based on findings during the testing process.",
+        "icon": "/images/image-1.png",
+        "company": "Boscod",
+        "poster": "/images/jobs/image-1.png"
+      }
+    ]
+  },
+  {
+    "image": "/images/category/writer.png",
+    "name": "Writing",
+    "id": 4,
+    "total": 8779,
+
+    "jobs": [
+      {
+        "id": 1,
+        "title": "Open Position for UI/UX Designer",
+        "about": "Established since 2020, PT. Sevanam Teknologi Solusindo is engaged in Software Development, especially Microfinance Institutions that focus on Customer Centric towards Customer Satisfaction.",
+        "requirement": "Menguasai bahasa pemrograman seperti Python, Java, atau Node.js. Pengalaman dengan framework seperti Django, Spring, atau Express.",
+        "icon": "/images/image-1.png",
+        "company": "Sevanam",
+        "poster": "/images/jobs/image.png"
+      },
+      {
+        "id": 2,
+        "title": "UI / UX Design",
+        "about": "helps you to design apps that span the Microsoft 365 ecosystem. It includes core components, scenario-based templates, and best practices to help you create apps that keep your users in the flow of their work.",
+        "requirement": "Technical understanding of how to perform software testing. Ability to perform concrete problem solving in software.Ability to identify bugs, errors/defects, and provide input on specific improvements needed.Ability to document software testing results based on findings during the testing process.",
+        "icon": "/images/image-1.png",
+        "company": "Microsoft",
+        "poster": "/images/jobs/image-1.png"
+      },
+      {
+        "id": 3,
+        "title": "UI/UX Designer needed in TRANSISI",
+        "about": "Transisi is an IT consulting company based in Yogyakarta that focuses on developing web and mobile applications for the enterprise segment.",
+        "requirement": "Technical understanding of how to perform software testing. Ability to perform concrete problem solving in software.Ability to identify bugs, errors/defects, and provide input on specific improvements needed.Ability to document software testing results based on findings during the testing process.",
+        "icon": "/images/image-1.png",
+        "company": "Nugasin. com",
+        "poster": "/images/jobs/image-2.png"
+      },
+      {
+        "id": 4,
+        "title": "UI/UX Designer",
+        "about": "Interested in Job Vacancy Info PT Teknologi Pustaka Indonesia? Prepare your application and CV along with other supporting application files",
+        "requirement": "Technical understanding of how to perform software testing. Ability to perform concrete problem solving in software.Ability to identify bugs, errors/defects, and provide input on specific improvements needed.Ability to document software testing results based on findings during the testing process.",
+        "icon": "/images/image-1.png",
+        "company": "PT Teknologi Pustaka Indonesia",
+        "poster": "/images/image-3.png"
+      },
+      {
+        "id": 5,
+        "title": "UI/UX Designer",
+        "about": "Interested in Job Vacancy Info PT Hadid Parama Indonesia (Boscod)? Prepare your application files and CV along with other supporting application files. Here are the qualifications",
+        "requirement": "Technical understanding of how to perform software testing. Ability to perform concrete problem solving in software.Ability to identify bugs, errors/defects, and provide input on specific improvements needed.Ability to document software testing results based on findings during the testing process.",
+        "icon": "/images/image-1.png",
+        "company": "Boscod",
+        "poster": "/images/jobs/image-1.png"
+      }
+    ]
+  },
+  {
+    "image": "/images/category/photo.png",
+    "name": "Photography",
+    "id": 5,
+    "total": 800,
+
+    "jobs": [
+      {
+        "id": 1,
+        "title": "Open Position for UI/UX Designer",
+        "about": "Established since 2020, PT. Sevanam Teknologi Solusindo is engaged in Software Development, especially Microfinance Institutions that focus on Customer Centric towards Customer Satisfaction.",
+        "requirement": "Menguasai bahasa pemrograman seperti Python, Java, atau Node.js. Pengalaman dengan framework seperti Django, Spring, atau Express.",
+        "icon": "/images/image-1.png",
+        "company": "Sevanam",
+        "poster": "/images/jobs/image.png"
+      },
+      {
+        "id": 2,
+        "title": "UI / UX Design",
+        "about": "helps you to design apps that span the Microsoft 365 ecosystem. It includes core components, scenario-based templates, and best practices to help you create apps that keep your users in the flow of their work.",
+        "requirement": "Technical understanding of how to perform software testing. Ability to perform concrete problem solving in software.Ability to identify bugs, errors/defects, and provide input on specific improvements needed.Ability to document software testing results based on findings during the testing process.",
+        "icon": "/images/image-1.png",
+        "company": "Microsoft",
+        "poster": "/images/jobs/image-1.png"
+      },
+      {
+        "id": 3,
+        "title": "UI/UX Designer needed in TRANSISI",
+        "about": "Transisi is an IT consulting company based in Yogyakarta that focuses on developing web and mobile applications for the enterprise segment.",
+        "requirement": "Technical understanding of how to perform software testing. Ability to perform concrete problem solving in software.Ability to identify bugs, errors/defects, and provide input on specific improvements needed.Ability to document software testing results based on findings during the testing process.",
+        "icon": "/images/image-1.png",
+        "company": "Nugasin. com",
+        "poster": "/images/jobs/image-2.png"
+      },
+      {
+        "id": 4,
+        "title": "UI/UX Designer",
+        "about": "Interested in Job Vacancy Info PT Teknologi Pustaka Indonesia? Prepare your application and CV along with other supporting application files",
+        "requirement": "Technical understanding of how to perform software testing. Ability to perform concrete problem solving in software.Ability to identify bugs, errors/defects, and provide input on specific improvements needed.Ability to document software testing results based on findings during the testing process.",
+        "icon": "/images/image-1.png",
+        "company": "PT Teknologi Pustaka Indonesia",
+        "poster": "/images/image-3.png"
+      },
+      {
+        "id": 5,
+        "title": "UI/UX Designer",
+        "about": "Interested in Job Vacancy Info PT Hadid Parama Indonesia (Boscod)? Prepare your application files and CV along with other supporting application files. Here are the qualifications",
+        "requirement": "Technical understanding of how to perform software testing. Ability to perform concrete problem solving in software.Ability to identify bugs, errors/defects, and provide input on specific improvements needed.Ability to document software testing results based on findings during the testing process.",
+        "icon": "/images/image-1.png",
+        "company": "Boscod",
+        "poster": "/images/jobs/image-1.png"
+      }
+    ]
+  },
+  {
+    "image": "/images/category/sosmed.png",
+    "name": "Social Media",
+    "id": 6,
+    "total": 1234,
+
+    "jobs": [
+      {
+        "id": 1,
+        "title": "Open Position for UI/UX Designer",
+        "about": "Established since 2020, PT. Sevanam Teknologi Solusindo is engaged in Software Development, especially Microfinance Institutions that focus on Customer Centric towards Customer Satisfaction.",
+        "requirement": "Menguasai bahasa pemrograman seperti Python, Java, atau Node.js. Pengalaman dengan framework seperti Django, Spring, atau Express.",
+        "icon": "/images/image-1.png",
+        "company": "Sevanam",
+        "poster": "/images/jobs/image.png"
+      },
+      {
+        "id": 2,
+        "title": "UI / UX Design",
+        "about": "helps you to design apps that span the Microsoft 365 ecosystem. It includes core components, scenario-based templates, and best practices to help you create apps that keep your users in the flow of their work.",
+        "requirement": "Technical understanding of how to perform software testing. Ability to perform concrete problem solving in software.Ability to identify bugs, errors/defects, and provide input on specific improvements needed.Ability to document software testing results based on findings during the testing process.",
+        "icon": "/images/image-1.png",
+        "company": "Microsoft",
+        "poster": "/images/jobs/image-1.png"
+      },
+      {
+        "id": 3,
+        "title": "UI/UX Designer needed in TRANSISI",
+        "about": "Transisi is an IT consulting company based in Yogyakarta that focuses on developing web and mobile applications for the enterprise segment.",
+        "requirement": "Technical understanding of how to perform software testing. Ability to perform concrete problem solving in software.Ability to identify bugs, errors/defects, and provide input on specific improvements needed.Ability to document software testing results based on findings during the testing process.",
+        "icon": "/images/image-1.png",
+        "company": "Nugasin. com",
+        "poster": "/images/jobs/image-2.png"
+      },
+      {
+        "id": 4,
+        "title": "UI/UX Designer",
+        "about": "Interested in Job Vacancy Info PT Teknologi Pustaka Indonesia? Prepare your application and CV along with other supporting application files",
+        "requirement": "Technical understanding of how to perform software testing. Ability to perform concrete problem solving in software.Ability to identify bugs, errors/defects, and provide input on specific improvements needed.Ability to document software testing results based on findings during the testing process.",
+        "icon": "/images/image-1.png",
+        "company": "PT Teknologi Pustaka Indonesia",
+        "poster": "/images/image-3.png"
+      },
+      {
+        "id": 5,
+        "title": "UI/UX Designer",
+        "about": "Interested in Job Vacancy Info PT Hadid Parama Indonesia (Boscod)? Prepare your application files and CV along with other supporting application files. Here are the qualifications",
+        "requirement": "Technical understanding of how to perform software testing. Ability to perform concrete problem solving in software.Ability to identify bugs, errors/defects, and provide input on specific improvements needed.Ability to document software testing results based on findings during the testing process.",
+        "icon": "/images/image-1.png",
+        "company": "Boscod",
+        "poster": "/images/jobs/image-1.png"
+      }
+    ]
+  },
+  {
+    "image": "/images/category/interface.png",
+    "name": "Interfaces",
+    "id": 7,
+    "total": 6767,
+
+    "jobs": [
+      {
+        "id": 1,
+        "title": "Open Position for UI/UX Designer",
+        "about": "Established since 2020, PT. Sevanam Teknologi Solusindo is engaged in Software Development, especially Microfinance Institutions that focus on Customer Centric towards Customer Satisfaction.",
+        "requirement": "Menguasai bahasa pemrograman seperti Python, Java, atau Node.js. Pengalaman dengan framework seperti Django, Spring, atau Express.",
+        "icon": "/images/image-1.png",
+        "company": "Sevanam",
+        "poster": "/images/jobs/image.png"
+      },
+      {
+        "id": 2,
+        "title": "UI / UX Design",
+        "about": "helps you to design apps that span the Microsoft 365 ecosystem. It includes core components, scenario-based templates, and best practices to help you create apps that keep your users in the flow of their work.",
+        "requirement": "Technical understanding of how to perform software testing. Ability to perform concrete problem solving in software.Ability to identify bugs, errors/defects, and provide input on specific improvements needed.Ability to document software testing results based on findings during the testing process.",
+        "icon": "/images/image-1.png",
+        "company": "Microsoft",
+        "poster": "/images/jobs/image-1.png"
+      },
+      {
+        "id": 3,
+        "title": "UI/UX Designer needed in TRANSISI",
+        "about": "Transisi is an IT consulting company based in Yogyakarta that focuses on developing web and mobile applications for the enterprise segment.",
+        "requirement": "Technical understanding of how to perform software testing. Ability to perform concrete problem solving in software.Ability to identify bugs, errors/defects, and provide input on specific improvements needed.Ability to document software testing results based on findings during the testing process.",
+        "icon": "/images/image-1.png",
+        "company": "Nugasin. com",
+        "poster": "/images/jobs/image-2.png"
+      },
+      {
+        "id": 4,
+        "title": "UI/UX Designer",
+        "about": "Interested in Job Vacancy Info PT Teknologi Pustaka Indonesia? Prepare your application and CV along with other supporting application files",
+        "requirement": "Technical understanding of how to perform software testing. Ability to perform concrete problem solving in software.Ability to identify bugs, errors/defects, and provide input on specific improvements needed.Ability to document software testing results based on findings during the testing process.",
+        "icon": "/images/image-1.png",
+        "company": "PT Teknologi Pustaka Indonesia",
+        "poster": "/images/image-3.png"
+      },
+      {
+        "id": 5,
+        "title": "UI/UX Designer",
+        "about": "Interested in Job Vacancy Info PT Hadid Parama Indonesia (Boscod)? Prepare your application files and CV along with other supporting application files. Here are the qualifications",
+        "requirement": "Technical understanding of how to perform software testing. Ability to perform concrete problem solving in software.Ability to identify bugs, errors/defects, and provide input on specific improvements needed.Ability to document software testing results based on findings during the testing process.",
+        "icon": "/images/image-1.png",
+        "company": "Boscod",
+        "poster": "/images/jobs/image-1.png"
+      }
+    ]
+  },
+  {
+    "image": "/images/category/strategy.png",
+    "name": "Strategy",
+    "id": 8,
+    "total": 1236,
+
+    "jobs": [
+      {
+        "id": 1,
+        "title": "Open Position for UI/UX Designer",
+        "about": "Established since 2020, PT. Sevanam Teknologi Solusindo is engaged in Software Development, especially Microfinance Institutions that focus on Customer Centric towards Customer Satisfaction.",
+        "requirement": "Menguasai bahasa pemrograman seperti Python, Java, atau Node.js. Pengalaman dengan framework seperti Django, Spring, atau Express.",
+        "icon": "/images/image-1.png",
+        "company": "Sevanam",
+        "poster": "/images/jobs/image.png"
+      },
+      {
+        "id": 2,
+        "title": "UI / UX Design",
+        "about": "helps you to design apps that span the Microsoft 365 ecosystem. It includes core components, scenario-based templates, and best practices to help you create apps that keep your users in the flow of their work.",
+        "requirement": "Technical understanding of how to perform software testing. Ability to perform concrete problem solving in software.Ability to identify bugs, errors/defects, and provide input on specific improvements needed.Ability to document software testing results based on findings during the testing process.",
+        "icon": "/images/image-1.png",
+        "company": "Microsoft",
+        "poster": "/images/jobs/image-1.png"
+      },
+      {
+        "id": 3,
+        "title": "UI/UX Designer needed in TRANSISI",
+        "about": "Transisi is an IT consulting company based in Yogyakarta that focuses on developing web and mobile applications for the enterprise segment.",
+        "requirement": "Technical understanding of how to perform software testing. Ability to perform concrete problem solving in software.Ability to identify bugs, errors/defects, and provide input on specific improvements needed.Ability to document software testing results based on findings during the testing process.",
+        "icon": "/images/image-1.png",
+        "company": "Nugasin. com",
+        "poster": "/images/jobs/image-2.png"
+      },
+      {
+        "id": 4,
+        "title": "UI/UX Designer",
+        "about": "Interested in Job Vacancy Info PT Teknologi Pustaka Indonesia? Prepare your application and CV along with other supporting application files",
+        "requirement": "Technical understanding of how to perform software testing. Ability to perform concrete problem solving in software.Ability to identify bugs, errors/defects, and provide input on specific improvements needed.Ability to document software testing results based on findings during the testing process.",
+        "icon": "/images/image-1.png",
+        "company": "PT Teknologi Pustaka Indonesia",
+        "poster": "/images/image-3.png"
+      },
+      {
+        "id": 5,
+        "title": "UI/UX Designer",
+        "about": "Interested in Job Vacancy Info PT Hadid Parama Indonesia (Boscod)? Prepare your application files and CV along with other supporting application files. Here are the qualifications",
+        "requirement": "Technical understanding of how to perform software testing. Ability to perform concrete problem solving in software.Ability to identify bugs, errors/defects, and provide input on specific improvements needed.Ability to document software testing results based on findings during the testing process.",
+        "icon": "/images/image-1.png",
+        "company": "Boscod",
+        "poster": "/images/jobs/image-1.png"
+      }
+    ]
+  }
+]

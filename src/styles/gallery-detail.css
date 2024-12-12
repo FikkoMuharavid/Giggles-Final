@@ -1,0 +1,266 @@
+/* Main container for gallery detail */
+.gallery-detail {
+    background: rgba(153, 153, 153, 0.26);
+    width: 90%;
+    max-width: 80%;
+    margin: 2rem auto;
+    padding-bottom: 20px;
+    border-radius: 2rem;
+    margin-top: 5rem;
+  }
+  
+  /* Profile Section */
+  .gallery-profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 10rem;
+  }
+  
+  .profile-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+  }
+  
+  .profile-picture {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 2px solid white;
+  }
+  
+  .profile-name {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .collaborate-button {
+    background: #b04e75;
+    color: white;
+    border: none;
+    padding: 16px 32px;
+    border-radius: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
+  .collaborate-button:hover {
+    background: #9d3f63;
+  }
+  
+  /* Main Image */
+  .gallery-main-image {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .main-image {
+    width: 850px;
+    height: auto;
+    border-radius: 16px;
+  }
+  
+  /* Gallery Header */
+  .gallery-header {
+    display: flex;
+    margin: 20px 30px;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+  }
+  
+  .gallery-title {
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .gallery-icon {
+    width: 30px;
+    padding-right: 20px;
+    cursor: pointer;
+  }
+  
+  /* Description */
+  .gallery-description {
+    color: white;
+    font-size: 1rem;
+    line-height: 2;
+    width: 90%;
+    margin-right: auto;
+    text-align: justify;
+  }
+  
+  /* Reviews Section */
+  .reviews-section {
+    margin: 40px auto;
+    max-width: 80%;
+  }
+  
+  .review-card {
+    background: rgba(153, 153, 153, 0.26);
+    margin-bottom: 20px;
+    border-radius: 2rem;
+    padding: 20px;
+  }
+  
+  .review-content {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .review-profile-picture {
+    width: 115px;
+    height: 115px;
+    border-radius: 50%;
+    border: 2px solid white;
+  }
+  
+  .review-details {
+    flex: 1;
+  }
+  
+  .reviewer-name {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .review-star {
+    margin-top: 10px;
+    color: yellow;
+  }
+  .review-text {
+    color: white;
+    font-size: 1rem;
+    margin-top: 10px;
+  }
+  
+  .review-date {
+    color: gray;
+    font-size: 1rem;
+    text-align: right;
+  }
+  
+  /* More Designs Section */
+  .more-designs-section {
+    background: rgba(153, 153, 153, 0.26);
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .more-designs-title {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .overlay-rating {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.699); /* Warna overlay dengan transparansi */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  .overlay-rating .rating-container {
+    border-radius: 23px;
+      background: rgba(90, 90, 90, 0.329);
+      box-shadow: 0px 0px 35px 2px rgba(255, 255, 255, 0.11);
+      backdrop-filter: blur(25px);
+      
+    padding: 20px 30px;
+    
+    width: 90%;
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  .overlay-rating h3 {
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+  }
+  
+  .overlay-rating .stars {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .overlay-rating .star {
+    font-size: 2rem;
+    cursor: pointer;
+    color: #ccc; /* Warna default */
+    transition: color 0.3s ease;
+  }
+  
+  .overlay-rating .star.selected {
+    color: #ffcc00; /* Warna bintang terpilih */
+  }
+  
+  .overlay-rating .review-textarea {
+    /* width: 100%;
+    height: 80px;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px; */
+  
+    margin-top: 10px;
+    width: 80%;
+      padding: 25px;
+      border-radius: 10px;
+      border: none;
+      background: rgba(255, 255, 255, 0.1);
+      box-shadow: 0px 0px 11.6px 0px rgba(0, 0, 0, 0.66) inset;
+      color: #ddd;
+      outline: none;
+      font-size: 20px;
+  }
+  
+  .overlay-rating .action-buttons {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .overlay-rating .btnrate {
+    margin-top: 5%;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .overlay-rating .btnrate.cancel {
+    margin-left: 5%;
+    background-color: #f0f0f0;
+    color: #b04e75;
+  }
+  
+  .overlay-rating .btnrate.submit {
+    margin-right: 5%;
+  }
+  
+  .overlay-rating .btnrate.cancel:hover {
+    background-color: #969696;
+  }
+  
+  .overlay-rating .btnrate.submit:hover {
+    background-color: #7d3954;
+  }
+  
+  
+  

@@ -1,0 +1,139 @@
+body .pagelogin{ 
+    height: 100vh;
+    background: url("/Background1.png") lightgray 50% / cover no-repeat;
+}
+
+.logoauth {
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 2%;
+    padding-bottom: 0.5%;
+}
+
+.pagelogin .container {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    width: 40vw;
+    min-width: 400px;
+    margin: 0 auto;
+    padding: 2% 3%;
+    border-radius: 36px;
+    background: rgba(255, 255, 255, 0.20);
+    box-shadow: 0px 0px 35px 2px rgba(255, 255, 255, 0.11);
+    backdrop-filter: blur(25px);
+}
+
+.login h2 {
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.pagelogin a {
+    color: #FF94BE;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.pagelogin h6 {
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 1%;
+}
+
+.garis {
+    height: 1px;
+    width: 100%;
+    margin-top: 1%;
+    background-color: white;
+}
+
+.pagelogin input {
+    background-color: rgba(255, 255, 255, 0) !important;
+    width: 80%;
+    border: none !important;
+    font-size: 18px;
+}
+.pagelogin input::placeholder {
+    color: rgb(255, 255, 255);
+    opacity: 0.8;  
+}
+.pagelogin input:focus {
+    border: none !important;
+    outline: none !important;
+    color: white;
+}
+
+.text-with-lines {
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+}
+
+.text-with-lines::before,
+.text-with-lines::after {
+    content: '';
+    flex-grow: 1;
+    border-top: 1px solid #ffffff;
+    margin: 0 10px;
+}
+
+.icon-circle {
+    display: inline-flex;  /* Membuat elemen fleksibel */
+    justify-content: center;  /* Menengahkan isi secara horizontal */
+    align-items: center;  /* Menengahkan isi secara vertikal */
+    width: 60px;  /* Lebar lingkaran */
+    height: 60px;  /* Tinggi lingkaran */
+    border-radius: 50%;  /* Membuat lingkaran */
+    background-color: #ffffff;  /* Warna latar belakang lingkaran */
+    color: rgba(0, 0, 0, 0.708);  /* Warna ikon */
+    font-size: 24px;  /* Ukuran ikon */
+    margin: 10px;  /* Jarak luar */
+}
+
+.custom-checkbox {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    cursor: pointer; /* Menunjukkan bahwa ini dapat diklik */
+}
+
+.custom-checkbox input {
+    display: none; /* Menyembunyikan checkbox asli */
+}
+
+.checkmark {
+    width: 15px;
+    height: 15px;
+    border: 2px solid white; /* Warna border putih */
+    background-color: transparent; /* Warna latar belakang transparan */
+    margin-right: 10px; /* Jarak antara checkbox dan teks */
+    position: relative;
+    transition: background-color 0.3s; /* Transisi warna */
+}
+
+.custom-checkbox input:checked + .checkmark {
+    background-color: #B04E75; /* Warna latar belakang saat dicentang */
+    border-color: #ffffff; /* Mengubah warna border saat dicentang */
+}
+
+.pagelogin button {
+    justify-content: center; /* Tengahkan secara horizontal */ 
+    width: 90%;
+    height: 60px;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    border-radius: 32px;
+    background: var(--Primary-Pink, #B04E75);
+    backdrop-filter: blur(13px);
+    border: none;
+}

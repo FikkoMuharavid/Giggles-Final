@@ -1,0 +1,121 @@
+/* General Container */
+.bg-background {
+  background: rgba(153, 153, 153, 0.26);
+  box-shadow: 0px 4px 35px 13px rgba(0, 0, 0, 0.55);
+  backdrop-filter: blur(17.5px);
+  margin: 5rem;
+  padding: 5rem;
+  border-radius: 3rem;
+  text-align: left;
+}
+
+.text-header {
+  font-size: 36px;
+  color: white;
+  text-align: center;
+  font-weight: 700;
+}
+
+.text-header-left {
+  text-align: left;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 3.2rem;
+}
+
+.left-column {
+  width: 496px;
+}
+
+.text-title {
+  margin-top: 1.25rem;
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+}
+
+.text-subtitle {
+  color: white;
+  margin-top: 1rem;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.text-body {
+  color: white;
+  margin-top: 0.5rem;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: normal;
+  text-align: justify;
+}
+
+.right-column {
+  width: 536px;
+  margin-top: 1.5rem;
+}
+
+.company {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.company-img {
+  border-radius: 0.75rem;
+  object-fit: cover;
+  height: 150px;
+  width: 150px;
+}
+
+.company-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  justify-content: space-between;
+}
+
+.company-name {
+  font-size: 2.5rem;
+  font-weight: 500;
+  color: white;
+}
+
+.button-visit {
+  background-color: #b04e75;
+  border: none;
+  border-radius: 50px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+  padding: 1rem;
+  font-size: 1rem;
+  color: white;
+}
+
+.image-company {
+  margin-top: 2rem;
+  border-radius: 0.75rem;
+  object-fit: cover;
+  height: fit-content;
+  width: 100%;
+}
+
+.apply-now-button {
+  background-color: #b04e75;
+  border: none;
+  border-radius: 33px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  color: white;
+  transform: translateY(-1.5rem);
+  width: 197px;
+  height: 63px;
+  margin-top: 2rem;
+}

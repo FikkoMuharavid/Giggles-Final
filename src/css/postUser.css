@@ -1,0 +1,384 @@
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("/src/image/Background1.png");
+}
+.avril .containerEditPost {
+  margin: 5% 4%;
+  height: 60vh;
+  max-height: 700px;
+  background: rgba(153, 153, 153, 0.26);
+  filter: drop-shadow(0px 4px 35px rgba(0, 0, 0, 0.8));
+  backdrop-filter: blur(17px);
+  border-radius: 22px;
+}
+
+
+.options{
+  background-color: white;
+  margin-top: 10px;
+  border-radius: 22px;
+  text-align: center !important;
+}
+
+.options .overlay{
+  background-color: white;
+  color: #b04e75;
+  padding: 10px 30px;
+  box-shadow: none ;
+  text-align: center !important;
+}
+
+.no-posts {
+  margin-top: 10px;
+  padding: 4%;
+  border-radius: 22px;
+  background: rgba(153, 153, 153, 0.26);
+  filter: drop-shadow(0px 4px 35px rgba(0, 0, 0, 0.8));
+  backdrop-filter: blur(17px);
+  
+}
+
+ .headerAvril {
+  position: absolute;
+  margin-top: 2%;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 13%;
+  width: 85vw;
+  border-radius: 22px;
+  background: rgba(153, 153, 153, 0.26);
+  filter: drop-shadow(0px 4px 35px rgba(0, 0, 0, 0.8));
+  backdrop-filter: blur(17px);
+  z-index: 99;
+}
+
+ .containerHeaderAvril {
+  display: flex;
+  width: auto;
+  padding: 1.7% 3%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ .header-item {
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+ .header-item.active {
+  text-shadow: 0px 0px 5px #b04e75;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.avril h3 {
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.avril .containerPost {
+  position: absolute;
+  width: 60%;
+  min-height: 40vh;
+  max-height: 85vh;
+  padding: 1% 4%;
+  border-radius: 25px;
+  background: rgba(153, 153, 153, 0.26);
+  filter: drop-shadow(0px 4px 35px rgba(0, 0, 0, 0.8));
+  backdrop-filter: blur(17px);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.avril .containerPoto {
+  position: relative;
+  width: 40%;
+  max-width: 300px;
+  min-height: 17vh;
+  max-height: 55vh;
+  padding: 0.5% 2%;
+  background: rgba(153, 153, 153, 0.26);
+  border-radius: 25px;
+  filter: drop-shadow(0px 4px 35px rgba(0, 0, 0, 0.8));
+  backdrop-filter: blur(17px);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 150px;
+  margin-bottom: -80px;
+}
+
+.avril .containerPoto img {
+  border-radius: 50%;
+}
+
+.avril .profile-name1 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.avril .underline1 {
+  height: 2px;
+  width: 150px;
+  background: #fff;
+  margin: 5px auto;
+  margin-left: 25px;
+}
+
+.avril .additional-text1 {
+  font-size: 16px;
+  color: #fff;
+  margin-top: 5px;
+  margin-left: -55px;
+}
+
+.avril .containerPoto img {
+  border-radius: 50%;
+  width: 95px;
+  margin-right: 15px;
+}
+
+.avril .profile1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.avril .new-profile1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100%;
+}
+
+.avril .form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.avril .btnPost {
+  padding: 10px 25px;
+  color: #fff;
+  border-radius: 33px;
+  border: none;
+  font-size: 23px;
+  background: #b04e75;
+  backdrop-filter: blur(10px);
+  top: 10px;
+}
+
+.avril .containerEditCollections {
+  margin: 5% 4%;
+  height: 70vh;
+  max-height: 700px;
+  background: rgba(153, 153, 153, 0.26);
+  filter: drop-shadow(0px 4px 35px rgba(0, 0, 0, 0.8));
+  backdrop-filter: blur(17px);
+  border-radius: 22px;
+}
+
+.avril .button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+.avril .button-item {
+  width: 20%;
+  height: 35vh;
+  background-color: #222;
+  border-radius: 20px;
+  filter: drop-shadow(0px 4px 20px rgba(0, 0, 0, 0.5));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  margin-top: 100px;
+}
+
+.avril .button-item img {
+  width: 100%;
+  height: 120%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+/*/////////////////////////////////////STARS/////////////////////////////////////*/
+.avril .containerEditStars {
+  margin: 5% 4%;
+  height: 80vh;
+  max-height: 900px;
+  background: rgba(153, 153, 153, 0.26);
+  filter: drop-shadow(0px 4px 35px rgba(0, 0, 0, 0.8));
+  backdrop-filter: blur(17px);
+  border-radius: 22px;
+}
+
+.avril .job-cardAvril {
+  display: flex;
+  align-items: center;
+  padding: 100px 40px; /* Padding atas dan bawah lebih besar */
+  border-radius: 20px;
+  background: rgba(153, 153, 153, 0.26);
+  backdrop-filter: blur(17px);
+  filter: drop-shadow(0px 6px 30px rgba(0, 0, 0, 0.8));
+  width: 1100px;
+  max-width: 95%;
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Gambar pada Kartu */
+.avril .job-image {
+  flex: 0 0 220px; /* Memperbesar lebar gambar job */
+  margin-right: 25px;
+  margin-left: 25px;
+  position: relative;
+  display: flex;
+  flex-direction: column; /* Stack the image and rating vertically */
+  align-items: center; /* Center align items */
+}
+
+.avril .job-image img {
+  width: 220px; /* Memperbesar gambar job */
+  height: auto;
+  border-radius: 15px;
+}
+
+.avril .job-image .rating {
+  display: flex;
+  justify-content: center; /* Align the stars in the center */
+  margin-top: 10px; /* Space between image and stars */
+}
+
+.avril .job-image .rating .star {
+  font-size: 20px;
+  color: #ccc; /* Default star color */
+  cursor: pointer; /* Make stars clickable */
+  transition: color 0.3s ease; /* Smooth transition for color change */
+}
+
+.avril .job-image .rating .star.selected {
+  color: gold; /* Color when the star is selected */
+}
+
+.avril .job-image .rating .star:hover {
+  color: #ffcc00; /* Color on hover */
+}
+
+/* Menambahkan jarak antara garis tegak dan teks */
+.avril .job-content {
+  flex: 1;
+  padding-left: 20px;
+}
+
+.avril .job-content h3 {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.avril .job-content p {
+  font-size: 17px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+/* Bagian Footer */
+.avril .job-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: inter;
+}
+
+.avril .job-info {
+  font-size: 14px;
+  color: #fff;
+}
+
+.avril .job-info span {
+  display: block;
+}
+
+.avril .job-info1 span {
+  display: block;
+  float: right;
+}
+
+.avril .job-image::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: -20px; /* Adjust the position of the line */
+  height: 100%;
+  border-left: 2px solid #fff;
+}
+/*////////////////////////////CONTACTS///////////////////////////////////*/
+/* Kontainer utama untuk bagian kontak */
+.avril .contact-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%; /* Lebar kotak utama */
+  height: 400px; /* Tinggi kotak utama */
+  margin: 0 auto; /* Memposisikan kotak utama di tengah halaman */
+  background-color: #333; /* Warna background kotak */
+  border-radius: 12px; /* Sudut tumpul pada kotak */
+}
+
+/* Styling untuk bagian kontak di dalam kotak */
+
+.avril .contact-section {
+  display: flex;
+  justify-content: center; /* Memusatkan konten secara horizontal */
+  align-items: center; /* Memusatkan konten secara vertikal */
+  gap: 50px;
+  color: white;
+  height: 60vh; /* Membuat tinggi penuh untuk memusatkan secara vertikal */
+}
+
+.avril .contact-column {
+  display: flex;
+  flex-direction: column;
+  position: center;
+  gap: 20px;
+}
+
+.avril .contact-item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.avril .icon {
+  width: 32px;
+  height: 32px;
+  background-color: #555;
+  border-radius: 6px;
+  padding: 8px;
+}

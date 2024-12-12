@@ -1,0 +1,131 @@
+.forgotpasw3 { 
+    height: 100vh;
+    background: url("/Background1.png") lightgray 50% / cover no-repeat;
+}
+
+.forgotpasw3 .logo {
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 2%;
+    padding-bottom: 0.5%;
+}
+
+.forgotpasw3 .container {
+    display: flex;
+    gap: 28px;
+    flex-direction: column;
+    width: 40vw;
+    min-width: 400px;
+    margin: 0 auto;
+    padding: 2% 3%;
+    border-radius: 36px;
+    background: rgba(255, 255, 255, 0.20);
+    box-shadow: 0px 0px 35px 2px rgba(255, 255, 255, 0.11);
+    backdrop-filter: blur(25px);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.forgotpasw3 h2 {
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-align: left;
+}
+
+.forgotpasw3 .bgOverlay h2 {
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-align: center;
+}
+
+.forgotpasw3 a {
+    color: #FF94BE;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    cursor: pointer;
+}
+
+.forgotpasw3 h6 {
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 1%;
+}
+
+.forgotpasw3 .garis {
+    height: 1px;
+    width: 100%;
+    margin-top: 1%;
+    background-color: white;
+}
+
+.forgotpasw3 input {
+    background-color: rgba(255, 255, 255, 0) !important;
+    border: none !important;
+    width: 80%;
+    font-size: 18px;
+}
+.forgotpasw3 input::placeholder {
+    color: rgb(255, 255, 255);
+    opacity: 0.8;  
+}
+.forgotpasw3 input:focus {
+    border: none !important;
+    outline: none !important;
+    color: white;
+}
+
+.forgotpasw3 button {
+    justify-content: center; /* Tengahkan secara horizontal */ 
+    width: 90%;
+    height: 60px;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    border-radius: 32px;
+    background: var(--Primary-Pink, #B04E75);
+    backdrop-filter: blur(13px);
+    border: none;
+}
+
+.forgotpasw3 .bgOverlay {
+    position: fixed; /* Tetap di layar saat menggulir */
+    width: 100vw;
+    height: 100vh; /* Menutupi seluruh layar */
+    top: 0; /* Mulai dari atas layar */
+    left: 0; /* Mulai dari kiri layar */
+    background-color: rgba(0, 0, 0, 0.699); /* Latar belakang dengan opasitas 50% */
+    z-index: 1000; /* Tetap lebih tinggi dari elemen lain */
+}
+.forgotpasw3 .containerOverlay {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: absolute;
+    width: 35vw;
+    height: 30vh;
+    
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    justify-content: center;
+    
+    padding: 2% 3%;
+    border-radius: 36px;
+    background: rgba(90, 90, 90, 0.329);
+    box-shadow: 0px 0px 35px 2px rgba(255, 255, 255, 0.11);
+    backdrop-filter: blur(25px);
+    
+}
